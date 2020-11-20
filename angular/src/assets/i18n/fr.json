@@ -58,7 +58,7 @@
     "referenceNumber": "Numéro de référence"
   },
   "bookTable": {
-    "title": "Vous pouvez inviter vos amis à dîner ou réserver une table.",
+    "title": "Une Mutation dans l'interface graphique",
     "bookTabImage": "Quelques plats que vous pouvez trouver dans notre restaurant",
     "bookingTab": "Réservez une table",
     "reservationTab": "Inviter des amis",
