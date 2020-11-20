@@ -7,8 +7,8 @@ metadata:
     tier: java
 spec:
   ports:
-  - port: 8081
-    targetPort: 8081
+  - port: 9082
+    targetPort: 9082
   selector:
     app: mts
     tier: java
@@ -39,7 +39,7 @@ spec:
         image: harbor.demo.xpaas.io/my-thai-star/mts-java:latest
         imagePullPolicy: Always
         ports:
-        - containerPort: 8081
+        - containerPort: 9082
         resources: 
           requests:
             memory: "512Mi"

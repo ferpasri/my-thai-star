@@ -4,23 +4,23 @@ services:
   reverse-proxy:
     build: 'reverse-proxy/'
     restart: always
-    container_name: 'mts_reverse_proxy'
+    container_name: 'mts_reverse_proxy_mutated'
     image: my-thai-star/reverse-proxy:latest
     networks:
       - my-thai-star
     ports:
-      - '8081:80'
+      - '9082:80'
   angular:
     build: 'angular/'
     restart: always
-    container_name: 'mts_angular'
+    container_name: 'mts_angular_mutated'
     image: my-thai-star/angular:latest
     networks:
       - my-thai-star
   java:
     build: 'java/'
     restart: always
-    container_name: 'mts_java'
+    container_name: 'mts_java_mutated'
     image: my-thai-star/java:latest
     networks:
       - my-thai-star

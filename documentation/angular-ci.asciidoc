@@ -123,7 +123,7 @@ environment {
     // Nexus repository ID
     repositoryId = 'pl-nexus'
     // Nexus internal URL
-    repositoryUrl = 'http://nexus3-core:8081/nexus3/repository/maven-snapshots'
+    repositoryUrl = 'http://nexus3-core:9082/nexus3/repository/maven-snapshots'
     // Maven global settings configuration ID
     globalSettingsId = 'MavenSettings'
     // Maven tool id

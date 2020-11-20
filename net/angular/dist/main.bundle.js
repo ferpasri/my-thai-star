@@ -5052,8 +5052,8 @@ module.exports = __webpack_require__.p + "star.5cbbb1d4fad2e640a5bb.png";
 var environment = {
     production: false,
     backendType: __WEBPACK_IMPORTED_MODULE_0__app_config__["b" /* BackendType */].REST,
-    restPathRoot: 'http://localhost:8081/mythaistar/',
-    restServiceRoot: 'http://localhost:8081/mythaistar/services/rest/',
+    restPathRoot: 'http://localhost:9082/mythaistar/',
+    restServiceRoot: 'http://localhost:9082/mythaistar/services/rest/',
 };
 //# sourceMappingURL=environment.js.map
 

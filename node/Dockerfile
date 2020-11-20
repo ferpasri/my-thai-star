@@ -15,5 +15,5 @@ RUN yarn build
 RUN yarn install --production --ignore-scripts --prefer-offline
 RUN yarn cache clean
 
-EXPOSE 8081
+EXPOSE 9082
 CMD [ "npm","run", "start:prod" ]

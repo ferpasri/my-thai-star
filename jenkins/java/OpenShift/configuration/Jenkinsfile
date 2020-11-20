@@ -42,7 +42,7 @@ pipeline{
         appDir='java/mtsj'
         nameForSecret='docker-registry'
         artifactsPath='./server/target'
-        port='8081-tcp'
+        port='9082-tcp'
     }
 
     stages {

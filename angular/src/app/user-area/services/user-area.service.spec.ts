@@ -41,10 +41,10 @@ const snackServiceStub = jasmine.createSpyObj<SnackService>('SnackService', [
 const configServiceStub = {
   getRestPathRoot: jasmine
     .createSpy('getRestPathRoot')
-    .and.returnValue(of('http://localhost:8081/mythaistar/')),
+    .and.returnValue(of('http://localhost:9082/mythaistar/')),
   getRestServiceRoot: jasmine
     .createSpy('getRestServiceRoot')
-    .and.returnValue(of('http://localhost:8081/mythaistar/services/rest/')),
+    .and.returnValue(of('http://localhost:9082/mythaistar/services/rest/')),
 };
 
 describe('UserAreaService', () => {

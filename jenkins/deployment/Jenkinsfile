@@ -17,7 +17,7 @@ pipeline{
         string(name: 'registryUrl', defaultValue: "REPLACE_ME", description: 'docker registry url')
         credentials(name: 'registryCredentialsId', defaultValue: "nexus-api", description: 'registry credentials', credentialType: 'com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl')
         booleanParam(name: 'buildReverseProxy', defaultValue: false, description: 'Build again the reverse proxy image?')
-        string(name: 'port', defaultValue: '8081', description: 'Reverse proxy exposed port', trim: true)
+        string(name: 'port', defaultValue: '9082', description: 'Reverse proxy exposed port', trim: true)
         string(name: 'dockerNetwork', defaultValue: 'my-thai-star', description: 'The docker network for the deployed container') 
     }
 

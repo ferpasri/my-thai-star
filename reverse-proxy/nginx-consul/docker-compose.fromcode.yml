@@ -32,7 +32,7 @@ services:
   reverse-proxy:
     build: '.'
     restart: always
-    container_name: 'mts_reverse_proxy'
+    container_name: 'mts_reverse_proxy_mutated'
     image: my-thai-star/reverse-proxy:latest
     networks:
       - my-thai-star
@@ -60,8 +60,8 @@ services:
       - my-thai-star
     labels:
       SERVICE_NAME: api
-      SERVICE_8081_CHECK_HTTP: /mythaistar/services/rest/dishmanagement/v1/category/0/
-      SERVICE_8081_CHECK_INTERVAL: 5s
+      SERVICE_9082_CHECK_HTTP: /mythaistar/services/rest/dishmanagement/v1/category/0/
+      SERVICE_9082_CHECK_INTERVAL: 5s
       SERVICE_TAGS: production
     depends_on:
       - registrator

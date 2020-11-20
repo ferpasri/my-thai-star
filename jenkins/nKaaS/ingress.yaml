@@ -18,7 +18,7 @@ spec:
       - path: /api(/)(.*)
         backend:
           serviceName: java
-          servicePort: 8081
+          servicePort: 9082
 ---
 apiVersion: extensions/v1beta1
 kind: Ingress

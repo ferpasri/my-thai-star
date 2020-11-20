@@ -3,7 +3,7 @@
     public static class ApplicationConfig
     {
         //setup dev environment        
-        private const string BaseUrl = "http://10.0.2.2:8081/";
+        private const string BaseUrl = "http://10.0.2.2:9082/";
 
         public static string LoginUrl = $"{BaseUrl}mythaistar/login";
         public static string CurrentUserUrl = $"{BaseUrl}mythaistar/services/rest/security/v1/currentuser";

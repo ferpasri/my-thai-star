@@ -20,7 +20,7 @@ services:
   server:
     build: "netcore"
     ports:
-      - "8081:8081"
+      - "9082:9082"
     depends_on:
       - mail
     networks:

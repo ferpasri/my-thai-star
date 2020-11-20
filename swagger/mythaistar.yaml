@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: v2.11
   title: My Thai Star API
-host: 'localhost:8081'
+host: 'localhost:9082'
 schemes:
   - http
 paths:

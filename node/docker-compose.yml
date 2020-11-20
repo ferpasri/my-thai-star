@@ -12,8 +12,8 @@ services:
     restart: always
     environment:
       - FRONTEND_ENV=http://angular:80
-      - BACKEND_ENV=http://node:8081/mythaistar
-    container_name: "mts_reverse_proxy_node"
+      - BACKEND_ENV=http://node:9082/mythaistar
+    container_name: "mts_reverse_proxy_mutated_node"
     depends_on:
       - angular
       - node
@@ -24,7 +24,7 @@ services:
   angular:
     build: "../angular/"
     restart: always
-    container_name: "mts_angular_node"
+    container_name: "mts_angular_mutated_node"
     image: my-thai-star/angular:latest
     networks:
       - my-thai-star-node

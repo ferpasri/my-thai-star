@@ -4,7 +4,7 @@ import { Config } from '../app/shared/model/config/config.model';
 const def: Config = {
   isDev: true,
   host: 'localhost',
-  port: 8081,
+  port: 9082,
   clientUrl: 'localhost:4200',
   globalPrefix: 'mythaistar',
   loggerConfig: {

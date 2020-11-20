@@ -14,7 +14,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 const configServiceStub = {
   getRestServiceRoot: jasmine
     .createSpy('getRestServiceRoot')
-    .and.returnValue(of('http://localhost:8081/mythaistar/services/rest/')),
+    .and.returnValue(of('http://localhost:9082/mythaistar/services/rest/')),
 };
 
 describe('EmailConfirmationsService', () => {
